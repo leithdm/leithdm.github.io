@@ -22,6 +22,7 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+  color: green; 
 }
 
 
@@ -35,7 +36,7 @@ footer p {
 }
 
 #mainNavbar .nav-link:hover {
-  color: orange;
+  color: green;
 }
 
 
@@ -44,6 +45,6 @@ footer p {
 }
 
 h1 {
-  font-size: 350%;
+  font-size: 400%;
   font-weight: bold; 
 }

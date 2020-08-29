@@ -48,3 +48,12 @@ h1 {
   font-size: 400%;
   font-weight: bold; 
 }
+
+.btn-sm {
+  box-shadow: 0 0.25rem rgba(121, 121, 121, 0.65); 
+}
+
+.btn-sm:active {
+  transform: translate(0, 0.3rem); 
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65); 
+}

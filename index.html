@@ -9,11 +9,12 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
-
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -29,13 +30,7 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="mailto:darrenleithinfo@gmail.com" target="_blank">Contact <span
+          <a class="nav-link" href="https://github.com/leithdm"><i class="fab fa-github"></i> github.com/leithdm <span
               class="sr-only">(current)</span></a>
         </li>
       </ul>
@@ -53,335 +48,349 @@
 
     <!-- Projects -->
     <div id="projects" class="album py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/apod-project.png" alt="Card image cap">
+      <div class="container p-3">
+        <div class="container">
+          <div class="card-columns">
+
+            <!-- PROJECT-ITEM-1 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/lethalapps.png" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">APOD: Astronomy Picture Of The Day. iOS app that brings the vastness of space into
-                  your hand. Browse through decades of high resolution NASA space photos selected by NASA astronomers.
-                  Scroll to any APOD, save them to your photo roll, or share them friends.</p>
+                <p class="card-text">Bespoke site for a Web and Mobile App Development Company.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/APOD" role="button"
-                      target="_blank">Source Code</a>
+                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/lethalapps" role="button"
+                      target="_blank">Source Code
+                    </a>
+                    <a class="btn btn-sm btn-outline-success" href="https://leithdm.github.io/lethalapps/" role="button"
+                      target="_blank">Live View
+                    </a>
                   </div>
-                  <small class="text-muted">iOS</small>
+                  <span class="text-black-50"><i class="fab fa-html5"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/artgallery-project.jpg" alt="Card image cap">
+            <!-- PROJECT-ITEM-2 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/artgallery-project.jpg" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">Online Art Gallery. MAMP dev using Laravel (ver 4.2) framework. IMS and CMS web
-                  portal with user authentication, CRUD content management. </p>
+                <p class="card-text">Online Art Gallery. MAMP dev using Laravel (ver 4.2) framework.
+                  IMS and CMS web portal with user authentication, CRUD content management.
+                </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark"
                       href="https://github.com/leithdm/OnlineArtGallery-Laravel-PHP" role="button"
-                      target="_blank">Source Code</a>
+                      target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">Web</small>
+                  <span class="text-black-50"><i class="fab fa-html5"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/tmdb-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-3 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/tmdb-project.png" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">iOS app to search, favorite, and watchlist any movie on the TMDB database via
-                  TMDB's API. Includes authentication.</p>
+                <p class="card-text">iOS app to search, favorite, and watchlist any movie on the
+                  TMDB database via TMDB's API. Includes authentication.
+                </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/TMDBManager" role="button"
-                      target="_blank">Source Code</a>
+                      target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">iOS</small>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/memento-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-4 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/memento-project.png" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">Memento is a meme sharing iOS app. Take a photo, add your text and share on social
-                  media !</p>
+                <p class="card-text">Memento is a meme sharing iOS app. Take a photo, add your text
+                  and share on social media !
+                </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/Memento" role="button"
-                      target="_blank">Source Code</a>
+                      target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">iOS</small>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/onthemap-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-5 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/onthemap-project.png" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">On The Map iOS app for displaying student locations on a map, along with pin
-                  annotations. Authenticate via RESTful API, CRUD a pin to the map as authenticated user.</p>
+                <p class="card-text">On The Map iOS app for displaying student locations on a map,
+                  along with pin annotations. Authenticate via RESTful API, CRUD a pin to the map
+                  as authenticated user.
+                </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/OnTheMap" role="button"
-                      target="_blank">Source Code</a>
+                      target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">iOS</small>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/weather-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-6 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/weather-project.png" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">The Weather App. A universal iOS app for city weather forecasts using the
-                  worldweatheronline API.</p>
+                <p class="card-text">The Weather App. A universal iOS app for city weather forecasts
+                  using the worldweatheronline API.
+                </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/TheWeatherApp" role="button"
-                      target="_blank">Source Code</a>
+                      target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">iOS</small>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/spaceinvaders-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-7 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/shooty-rocks.png" alt="Image of portfolio item">
+              <div class="card-body">
+                <p class="card-text">Asteroids Clone built with vanillaJS</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/shooty-rocks" role="button"
+                      target="_blank">Source Code
+                    </a>
+                    <a class="btn btn-sm btn-outline-success" href="https://leithdm.github.io/shooty-rocks/"
+                      role="button" target="_blank">Live View
+                    </a>
+                  </div>
+                  <span class="text-black-50"><i class="fab fa-html5"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROJECT-ITEM-8 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/spaceinvaders-project.png" alt="Image of portfolio item">
               <div class="card-body">
                 <p class="card-text">Space Invaders! Objective-C style.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/Space-Invaders"
-                      role="button" target="_blank">Source Code</a>
+                      role="button" target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">iOS</small>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/whackapenguin-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-9 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/whackapenguin-project.png" alt="Image of portfolio item">
               <div class="card-body">
                 <p class="card-text">Whack a Penguin. Illustrating basic SpriteKit principles.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/Whack-a-Penguin"
-                      role="button" target="_blank">Source Code</a>
+                      role="button" target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">iOS</small>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/caocalculator-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-10 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/virtualtourist-project.png" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">CAO Calculator. Handy app for calculation your CAO Points. Was a favorite on the
-                  Apple App Store in 2016.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/CAOCalculator" role="button"
-                      target="_blank">Source Code</a>
-                  </div>
-                  <small class="text-muted">iOS</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/virtualtourist-project.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">iOS app to create a virtual photo album. Drop a pin on the map to specify a travel
-                  location. Persist pin locations, map settings, and images via Core Data.</p>
+                <p class="card-text">iOS app to create a virtual photo album. Drop a pin on the map
+                  to specify a travel location. Persist pin locations, map settings, and images
+                  via Core Data.
+                </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/VirtualTourist"
-                      role="button" target="_blank">Source Code</a>
+                      role="button" target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">iOS</small>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/cchem-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-11 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/cchem-project.png" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">Molecular Dynamics simulation of POOT - an amphiphilic polymer poly
-                  (3-octyl-3′-oxanoylthiophene).</p>
+                <p class="card-text">Molecular Dynamics simulation of POOT - an amphiphilic polymer
+                  poly (3-octyl-3′-oxanoylthiophene).
+                </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark"
                       href="https://github.com/leithdm/Fortran-Computational-Chemistry" role="button"
-                      target="_blank">Source Code</a>
+                      target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">Comp-Chem</small>
+                  <span class="text-black-50"><i class="fab fa-html5"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/pitchperfect-project.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Pitch-Perfect. A fun iOS app for adding sound effects to your recorded voice.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/Pitch-Perfect" role="button"
-                      target="_blank">Source Code</a>
-                  </div>
-                  <small class="text-muted">iOS</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/quote-generator.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">A simple quote generator using Vanilla JavaScript, HTML5, CSS3. Share the quote on
-                  Twitter.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/quote-generator"
-                      role="button" target="_blank">Source Code</a>
-                    <a class="btn btn-sm btn-outline-success" href="https://leithdm.github.io/quote-generator/"
-                      role="button" target="_blank">Live View</a>
-                  </div>
-                  <small class="text-muted">Web</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/instagram-project.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Instagram clone using Parse backend with authentication.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/InstagramClone"
-                      role="button" target="_blank">Source Code</a>
-                  </div>
-                  <small class="text-muted">Android</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/blogging-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-12 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/blogging-project.png" alt="Image of portfolio item">
               <div class="card-body">
                 <p class="card-text">Blogging app using Firebase backend with authentication.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/BloggingApp" role="button"
-                      target="_blank">Source Code</a>
+                      target="_blank">Source Code
+                    </a>
                   </div>
-                  <small class="text-muted">Android</small>
+                  <span class="text-black-50"><i class="fab fa-android"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/colorGame-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-13 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/apod-project.png" alt="Image of portfolio item">
+              <div class="card-body">
+                <p class="card-text">Astronomy Picture Of The Day. Published iOS app that brings the vastness of space
+                  into
+                  your hand. +50k downloads.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/APOD" role="button"
+                      target="_blank">Source Code
+                    </a>
+                  </div>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROJECT-ITEM-14 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/colorGame-project.png" alt="Image of portfolio item">
               <div class="card-body">
                 <p class="card-text">RGB color guessing game.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/colorGame" role="button"
-                      target="_blank">Source Code</a>
                     <a class="btn btn-sm btn-outline-success" href="https://leithdm.github.io/colorGame/" role="button"
-                      target="_blank">Live View</a>
+                      target="_blank">Live View
+                    </a>
                   </div>
-                  <small class="text-muted">Web</small>
+                  <span class="text-black-50"><i class="fab fa-html5"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/simple-resume-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-15 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/simple-resume-project.png" alt="Image of portfolio item">
               <div class="card-body">
                 <p class="card-text">Simple Resume: a resume template</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/simple-resume"
-                      role="button" target="_blank">Source Code</a>
+                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/simple-resume" role="button"
+                      target="_blank">Source Code
+                    </a>
                     <a class="btn btn-sm btn-outline-success" href="https://leithdm.github.io/simple-resume/"
-                      role="button" target="_blank">Live View</a>
+                      role="button" target="_blank">Live View
+                    </a>
                   </div>
-                  <small class="text-muted">Web</small>
+                  <span class="text-black-50"><i class="fab fa-html5"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/candy-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-16 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/candy-project.png" alt="Image of portfolio item">
               <div class="card-body">
-                <p class="card-text">CandyShop | basic Bootstrap 4 styling with mobile responsiveness</p>
+                <p class="card-text">Candy Shop - responsive Bootstrap 4</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/candyShop" role="button"
-                      target="_blank">Source Code</a>
                     <a class="btn btn-sm btn-outline-success" href="https://leithdm.github.io/candyShop/" role="button"
-                      target="_blank">Live View</a>
+                      target="_blank">Live View
+                    </a>
                   </div>
-                  <small class="text-muted">Web</small>
+                  <span class="text-black-50"><i class="fab fa-html5"></i></span>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="assets/images/infinite-scroller-project.png" alt="Card image cap">
+            <!-- PROJECT-ITEM-17 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/pitchperfect-project.png" alt="Image of portfolio item">
+              <div class="card-body">
+                <p class="card-text">Pitch-Perfect. A fun iOS app for adding sound effects to your
+                  recorded voice.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/Pitch-Perfect" role="button"
+                      target="_blank">Source Code
+                    </a>
+                  </div>
+                  <span class="text-black-50"><i class="fab fa-apple"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROJECT-ITEM-18 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/instagram-project.png" alt="Image of portfolio item">
+              <div class="card-body">
+                <p class="card-text">Instagram clone using Parse backend with authentication.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/InstagramClone"
+                      role="button" target="_blank">Source Code
+                    </a>
+                  </div>
+                  <span class="text-black-50"><i class="fab fa-android"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- PROJECT-ITEM-19 -->
+            <div class="card mb-4 border-0 shadow">
+              <img class="card-img-top" src="assets/images/infinite-scroller-project.png" alt="Image of portfolio item">
               <div class="card-body">
                 <p class="card-text">Infinite Scroller using the Unsplash API.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a class="btn btn-sm btn-outline-dark" href="https://github.com/leithdm/infinite-scroller"
-                      role="button" target="_blank">Source Code</a>
+                      role="button" target="_blank">Source Code
+                    </a>
                     <a class="btn btn-sm btn-outline-success" href="https://leithdm.github.io/infinite-scroller/"
-                      role="button" target="_blank">Live View</a>
+                      role="button" target="_blank">Live View
+                    </a>
                   </div>
-                  <small class="text-muted">Web</small>
+                  <span class="text-black-50"><i class="fab fa-html5"></i></span>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -393,7 +402,7 @@
       <p class="float-right">
         <a href="#">Back to top</a>
       </p>
-      <p>Darren Leith &copy; 2015.</p>
+      <p>DML &copy; 2021.</p>
     </div>
   </footer>
 
